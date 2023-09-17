@@ -10,11 +10,11 @@ const jsUser={
 }
 
  jsUser.email="ShivamShukla93";
- console.log(jsUser.email);
+//  console.log(jsUser.email);
  
  Object.freeze(jsUser)
 
- console.log(jsUser.email);
+//  console.log(jsUser.email);
 // console.log(jsUser.name);
 // console.log(jsUser.email);
 
@@ -26,5 +26,3 @@ const jsUser={
 
 
 
-
-console.log(jsUser);
