@@ -69,3 +69,16 @@ const instaUser={
 
 
 // console.log(instaUser[0]);
+
+
+const course={
+    course:"javaScript",
+    fees:"10000",
+    courseInstructor:"Shivamshukla"
+}
+console.log(course.courseInstructor);
+
+
+const {courseInstructor:Teacher}=course
+
+console.log(Teacher);
