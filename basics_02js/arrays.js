@@ -1,4 +1,4 @@
-//array
+array
 
 const myarr=[1,2,3,4,5]
 
@@ -36,39 +36,39 @@ console.log(myarr);
 
 
 
-/**
- * types of method in array of js
- * concat()
-   copyWithin()
-     every()
-   filter()
-  flat()
-  flatMap()
-  forEach()
-  indexOf()
-  lastIndexOf()
-  map()
-  reduce()
-reduceRight()
-reverse()
-slice()
-some()
-sort()
-splice()
-For exactly how they treat empty slots, see the page for each method.
+// /**
+//  * types of method in array of js
+//  * concat()
+//    copyWithin()
+//      every()
+//    filter()
+//   flat()
+//   flatMap()
+//   forEach()
+//   indexOf()
+//   lastIndexOf()
+//   map()
+//   reduce()
+// reduceRight()
+// reverse()
+// slice()
+// some()
+// sort()
+// splice()
+// For exactly how they treat empty slots, see the page for each method.
 
-These methods treat empty slots as if they are undefined:
+// These methods treat empty slots as if they are undefined:
 
-entries()
-fill()
-find()
-findIndex()
-findLast()
-findLastIndex()
-includes()
-join()
-keys()
-toLocaleString()
-values()
- */
+// entries()
+// fill()
+// find()
+// findIndex()
+// findLast()
+// findLastIndex()
+// includes()
+// join()
+// keys()
+// toLocaleString()
+// values()
+//  */
 

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+<!-- 
+    <h2>Lorem ipsum dolor sit.</h2>
+    <h1 class="heading" id="title">DOM learning With ShivamCodes</h1>
+    <h2>Lorem ipsum dolor sit.</h2>
+    <h2>Lorem ipsum dolor sit.</h2>
+    <h2>Lorem ipsum dolor sit.</h2>
+    <p>Lorem ipsum dolor sit.</p>
+
+    <ul>
+        <li class="list">one</li>
+        <li class="list" >two</li>
+        <li class="list" >three</li>
+        <li class="list" >four</li>
+      
+    </ul> -->
+    <!-- <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Friday</div>
+    </div> -->
+
+   
+</body>
+<script>
+//     const parent  = document.querySelector('.parent')
+//     console.log(parent);
+//     console.log(parent.children[1].innerHTML);
+
+//     for (let i = 0; i < parent.children.length; i++) {
+//           console.log((parent.children[i].innerHTML));
+        
+//     }
+
+       const div=document.createElement('div')
+       console.log(div);
+       div.setAttribute("title","javaScript")
+       div.setAttribute("title2","js new")
+       div.style.backgroundColor="red"
+       div.style.padding="15px"
+       div.style.borderRadius="10px"
+
+       const randm=document.createTextNode("coding with shivam")
+       div.append(randm)
+
+       document.body.append(div)
+
+
+
+
+
+
+
+
+
+
+
+//   </script>
+</html>
