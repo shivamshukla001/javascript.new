@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>asynks</title>
+</head>
+<body>
+    <h1>Coding with Shivam</h1>
+    <button id="start">START</button>
+    <button id="stop">STOP</button>
+</body>
+<script>
+    //  setTimeout( ()=>{
+    //     console.log("the best coder :- Shivam Shukla");
+    //  },3000)
+
+    // const coder= ()=>{
+    //     console.log("best coder");
+    // }
+    // setTimeout(coder,3000)
+
+//     const changeText=document.querySelector('h1').innerHTML="best javaScript Coder"
+
+//    const changeME= setTimeout(changeText,3000)
+    
+//    document.querySelector('#stop').    addEventListener      ('click', function(){
+//     clearTimeout(changeME)
+//     console.log("STOPPED");
+//    })
+// const changeIT= setInterval( ()=>{
+//     console.log("shivam");
+//   },1000)
+    
+  document.querySelector('#start').addEventListener('click', function(){
+    const changeIT= setInterval( ()=>{
+    console.log("shivam");
+  },1000)
+    
+  });
+  document.querySelector('#stop').addEventListener('click',function(){
+    clearInterval(changeIT)
+    console.log(STOPEDDDDD);
+  })
+
+ 
+
+</script>
+</html>
