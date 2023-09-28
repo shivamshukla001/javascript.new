@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APIrequest</title>
+</head>
+<body>
+     <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis reprehenderit quasi dolorem sunt blanditiis perferendis et rerum praesentium nemo neque repudiandae quod tenetur explicabo natus enim, nam, eius, illo libero ratione! Itaque voluptates unde tempora vero assumenda a suscipit ea.</h1>
+</body>
+
+<script>
+    const requestUrl='https://api.github.com/users/Shivamshukla001'
+    const xhr=new XMLHttpRequest();
+    xhr.open('GET', requestUrl)
+    xhr.onreadystatechange = function(){
+        console.log(xhr.readyState);
+
+        //JSON.parse method object bnane ke   kaam aata hai
+        if(xhr.readyState === 4){
+            const data=JSON.parse(this.responseText);
+           console.log(typeof data);
+           console.log(data.avatar_url);
+        }
+        }
+    
+    xhr.send();
+
+</script>
+</html>
